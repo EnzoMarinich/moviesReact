@@ -1,0 +1,60 @@
+.movieContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.movieCol{
+    max-width: 380px;
+}
+
+
+.movieImg{
+    border-radius: 15px;
+    width: 70%;
+    height: auto;
+    margin: 20px;
+}
+
+.title{
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.genre{
+    font-size: 0.9rem;
+    margin-top: 0;
+}
+
+.description{
+    margin-top:50px;
+    font-size: 1.1rem;
+}
+
+.puntuacion{
+    font-weight: 700;
+    position: absolute;
+    bottom: 25%;
+    right: 30%;
+    text-align: center;
+}
+
+.num{
+    height: 20px;
+    width: 25px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+
+@media(max-width:860px){
+    .puntuacion{
+        bottom: 10px;
+        right: 30px;
+    }
+}

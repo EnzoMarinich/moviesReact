@@ -1,0 +1,21 @@
+.back{
+    position: absolute;
+    left: 50px;
+    top: 30%;
+    background: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.back:hover{
+    opacity: .7;
+}
+
+@media (max-width:580px){
+    .back{
+        left: 20px;
+        top: 23%;
+    }
+}
